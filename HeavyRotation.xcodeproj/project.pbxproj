@@ -16,6 +16,8 @@
 		BF1BD25518A9810A00578ECB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BD25418A9810A00578ECB /* Default.png */; };
 		BF1BD25718A9810A00578ECB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BD25618A9810A00578ECB /* Default@2x.png */; };
 		BF1BD25918A9810A00578ECB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1BD25818A9810A00578ECB /* Default-568h@2x.png */; };
+		BF1BD26218A981DD00578ECB /* HeavyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BD26018A981DD00578ECB /* HeavyViewController.m */; };
+		BF1BD26318A981DD00578ECB /* HeavyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1BD26118A981DD00578ECB /* HeavyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		BF1BD25418A9810A00578ECB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BF1BD25618A9810A00578ECB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF1BD25818A9810A00578ECB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF1BD25F18A981DD00578ECB /* HeavyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyViewController.h; sourceTree = "<group>"; };
+		BF1BD26018A981DD00578ECB /* HeavyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyViewController.m; sourceTree = "<group>"; };
+		BF1BD26118A981DD00578ECB /* HeavyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeavyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				BF1BD25118A9810A00578ECB /* RotationAppDelegate.h */,
 				BF1BD25218A9810A00578ECB /* RotationAppDelegate.m */,
+				BF1BD25F18A981DD00578ECB /* HeavyViewController.h */,
+				BF1BD26018A981DD00578ECB /* HeavyViewController.m */,
+				BF1BD26118A981DD00578ECB /* HeavyViewController.xib */,
 				BF1BD24918A9810A00578ECB /* Supporting Files */,
 			);
 			path = HeavyRotation;
@@ -155,6 +163,7 @@
 				BF1BD25518A9810A00578ECB /* Default.png in Resources */,
 				BF1BD25718A9810A00578ECB /* Default@2x.png in Resources */,
 				BF1BD25918A9810A00578ECB /* Default-568h@2x.png in Resources */,
+				BF1BD26318A981DD00578ECB /* HeavyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				BF1BD24F18A9810A00578ECB /* main.m in Sources */,
 				BF1BD25318A9810A00578ECB /* RotationAppDelegate.m in Sources */,
+				BF1BD26218A981DD00578ECB /* HeavyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
