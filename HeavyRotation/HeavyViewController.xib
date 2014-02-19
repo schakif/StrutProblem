@@ -33,11 +33,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="30" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="8" id="AuK-VH-3kw"/>
                 <constraint firstAttribute="trailing" secondItem="89" secondAttribute="trailing" constant="20" id="EEz-4U-Dvm"/>
                 <constraint firstItem="30" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="Ijm-X2-4JP"/>
                 <constraint firstAttribute="trailing" secondItem="30" secondAttribute="trailing" constant="20" id="MjI-WP-ns3"/>
+                <constraint firstAttribute="bottom" secondItem="30" secondAttribute="bottom" constant="20" id="OuB-Fe-sxD"/>
                 <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="bR0-j7-V7T"/>
                 <constraint firstItem="89" firstAttribute="width" secondItem="4" secondAttribute="width" id="ghe-Mc-7Dv"/>
+                <constraint firstItem="89" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="14" id="qjg-E0-OhV"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
